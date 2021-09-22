@@ -1,6 +1,6 @@
 [package]
 name = "rusticata-macros"
-version = "3.1.0"
+version = "4.0.0"
 description = "Helper macros for Rusticata"
 license = "MIT/Apache-2.0"
 keywords = ["parser","nom","serialize"]
@@ -12,4 +12,4 @@ categories = ["parsing"]
 readme = "README.md"
 
 [dependencies]
-nom = "6.0"
+nom = { version = "7.0", default-features = false, features = ["std"] }
