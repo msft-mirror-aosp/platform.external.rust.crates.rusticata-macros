@@ -1,6 +1,5 @@
 {
-    "device": true,
-    "run": true,
-    "tests": true
+  "device": true,
+  "run": true,
+  "tests": true
 }
-
