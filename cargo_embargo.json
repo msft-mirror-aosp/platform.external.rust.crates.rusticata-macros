@@ -1,9 +1,8 @@
 {
-  "apex-available": [
+  "apex_available": [
     "//apex_available:platform",
     "com.android.virt"
   ],
-  "device": true,
-  "run": true,
+  "run_cargo": false,
   "tests": true
 }
